@@ -87,3 +87,11 @@ $ source ~/catkin_ws/devel/setup.bash
 ## Copyright
 
 ![Logo](./joint_logo.png)
+
+
+## test change
+测试通过码云转存的仓库，在
+```sh
+git remote set-url origin the_git_address_of-repo-in_github
+```
+后能否正常push
