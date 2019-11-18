@@ -95,3 +95,14 @@ $ source ~/catkin_ws/devel/setup.bash
 git remote set-url origin the_git_address_of-repo-in_github
 ```
 后能否正常push
+
+## test branch
+在`dev` 分支修改并提交 是不会影响 `master`分支
+```sh
+git checkout -b dev //新建一个dev分支，并switch to dev
+git branch //查看分支情况
+git branch <name> //创建新分支
+git checkout <name> / git switch <name> //切换分支
+git merge <name> 合并某分支到当前分支
+git branch -d <name> //删除分支
+```
